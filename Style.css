@@ -1,0 +1,35 @@
+/* universal Selector */
+*{
+    margin:0;
+    padding:0;
+}
+/* Type Selector */
+h1{
+    color:blue;
+}
+/* class Selector */
+.khan{
+    color:red;
+}
+/* id Selector */
+#paragrph{
+    background-color: black;
+    color:white;
+}
+/* Child Selector */
+li>h3{
+    color:rgb(11, 12, 20);
+    font-size: 30px;
+}
+/* Descendant Selector */
+div p{
+    color:chartreuse;
+}
+/* Adjacent Sibling Selector */
+div + p {  
+    background-color: black;
+}
+/* General Sibling selector */
+div~p{
+    color:yellowgreen;
+}
